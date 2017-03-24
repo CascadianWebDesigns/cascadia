@@ -3,17 +3,17 @@ body {
     font-family: 'Arimo', sans-serif;
 }
 
-.title>* {
+#title>* {
     display: inline;
     margin-left: -4px;
     /*get rid of odd whitespace */
 }
 
-.title>.big {
+#title>.big {
     font-size: 6vw;
 }
 
-.title>.small {
+#title>.small {
     font-size: 4vw;
 }
 

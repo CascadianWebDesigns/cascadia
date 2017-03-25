@@ -1,6 +1,6 @@
 window.onload = function() {
-    var startRange = 125;
-    var endRange = 255;
+    var startRange = 85;
+    var endRange = 185;
 
     var red = Math.floor(Math.random() * endRange) + startRange;
     var green = Math.floor(Math.random() * endRange) + startRange;

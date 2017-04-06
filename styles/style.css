@@ -47,5 +47,6 @@ body {
 }
 
 #header_logo{
-  width: 64px;
+  weight: 5vh;
+  height: 5vh;
 }

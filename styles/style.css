@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Trirong');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 * {
     -webkit-touch-callout: none;
@@ -10,20 +10,43 @@
 }
 
 body {
-    font-family: 'Trirong', serif;
+    font-family: 'Roboto', sans-serif;
     overflow: hidden;
     margin: 0px;
     padding: 0;
-    border: 1px red solid;
 }
 
 .nav{
   background-color: #1100c7;
   color: white;
   height: 15vh;
+  position: relative;
 }
 
 .header{
   font-size: 65px;
   text-align: center;
+  float: left;
+
+  position: absolute;
+    top: 50%;
+    transform: translate(5%, -50%)
+
+}
+
+.navOptions{
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 35px;
+}
+.navTab{
+  display: inline;
+  bottom: 0;
+  margin-right: 25px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }

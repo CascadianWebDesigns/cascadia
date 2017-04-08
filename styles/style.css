@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Pavanam');
 body {
     font-family: 'Pavanam', sans-serif;
-    background-color: black;
     margin: 10px;
 }
 
 .nav {
     background-color: black;
     color: white;
-    font-size: 45px;
+    font-size: 28px;
     padding: 10px;
     width: 100%;
     position: fixed;
@@ -31,16 +30,20 @@ body {
 }
 
 .content {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.90);
     margin-top: 100vh;
-    height: 200vh;
     width: 95vw;
+    height: 500vh;
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2px;
+    padding: 100px;
 }
 
+.content > p{
+  font-size: 25px;
+}
 .card-shawdow {
     -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
@@ -62,4 +65,8 @@ table, tr, td{
   text-align: center;
   color: white;
   opacity: 0.8;
+}
+
+.testPara{
+  opacity: 0;
 }

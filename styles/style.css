@@ -39,7 +39,7 @@ body {
     background-color: rgba(255, 255, 255, 0.90);
     margin-top: 100vh;
     width: 95vw;
-    height: 90vh;
+    height: 280vh;
     /* Change this to make card smaller, make sure text fits */
     z-index: 1;
     margin-left: auto;
@@ -82,7 +82,10 @@ table, tr, td {
 h1 {
     text-align: center;
 }
+h3{
+  text-align: center;
 
+}
 ul>li {
     display: inline;
     margin-right: 1vh;
@@ -149,4 +152,11 @@ hr {
 
 .fadeContactUs {
     opacity: 0;
+}
+
+.pics{
+  margin-top: 10vh;
+  height: 80vh;
+  width: 80vw;
+
 }

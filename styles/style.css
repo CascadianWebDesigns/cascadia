@@ -9,7 +9,7 @@ body {
     color: white;
     font-size: 28px;
     padding: 10px;
-    width: 100%;
+    width: 100vw;
     position: fixed;
     left: 0;
     top: 0;
@@ -23,7 +23,7 @@ body {
 .banner {
     background-image: url("../images/banner_placeholder.jpg");
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     left: 0;
     top: 0;
     background-size: cover;
@@ -39,13 +39,13 @@ body {
     background-color: rgba(255, 255, 255, 0.90);
     margin-top: 100vh;
     width: 95vw;
-    height: 280vh;
     /* Change this to make card smaller, make sure text fits */
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
+    left: 0;
     border-radius: 2px;
-    padding: 100px;
+    padding: 8%;
 }
 
 .content>p {
@@ -82,10 +82,11 @@ table, tr, td {
 h1 {
     text-align: center;
 }
-h3{
-  text-align: center;
 
+h3 {
+    text-align: center;
 }
+
 ul>li {
     display: inline;
     margin-right: 1vh;
@@ -132,8 +133,8 @@ hr {
 .contact {
     background-color: #233447;
     margin-top: 10vh;
-    width: 95vw;
     height: 50vh;
+    width: 95vw;
     /* Change this to make card smaller, make sure text fits */
     z-index: 1;
     margin-left: auto;
@@ -148,15 +149,42 @@ hr {
     font-size: 25px;
 }
 
-.emailButton {}
 
 .fadeContactUs {
     opacity: 0;
 }
 
-.pics{
-  margin-top: 10vh;
-  height: 80vh;
-  width: 80vw;
+.pics {
+    margin-top: 10vh;
+    height: 80vh;
+    width: 80vw;
+}
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+.dropdown {
+    margin-right: 5px;
+}
+
+
+.btn{
+  color: white;
+  background: none;
+}
+
+.btn:hover{
+  color: white;
+}
+
+.btn:focus{
+  color: grey;
+}
+
+.btn:active{
+  color: white;
 }

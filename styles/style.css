@@ -15,6 +15,9 @@ body {
     top: 0;
     z-index: 2;
     opacity: 0;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
 }
 
 .banner {
@@ -27,6 +30,9 @@ body {
     background-position: center;
     position: fixed;
     z-index: -1;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
 }
 
 .content {
@@ -88,9 +94,10 @@ ul {
 }
 
 a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
+
 a:hover {
     text-decoration: none;
 }
@@ -104,9 +111,9 @@ a:hover {
     color: grey;
 }
 
-hr{
-  margin-left: 50vh;
-  margin-right: 50vh;
+hr {
+    margin-left: 50vh;
+    margin-right: 50vh;
 }
 
 #about {
@@ -118,26 +125,28 @@ hr{
     display: block;
     margin: auto;
 }
-.contact{
-  background-color: #233447;
-  margin-top: 10vh;
-  width: 95vw;
-  height: 50vh;
-  /* Change this to make card smaller, make sure text fits */
-  z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 2px;
-  padding: 100px;
-  color: white;
-}
-.contact-content{
-  text-align: center;
-  font-size: 25px;
-}
-.emailButton{
+
+.contact {
+    background-color: #233447;
+    margin-top: 10vh;
+    width: 95vw;
+    height: 50vh;
+    /* Change this to make card smaller, make sure text fits */
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    padding: 100px;
+    color: white;
 }
 
-.fadeContactUs{
-  opacity: 0;
+.contact-content {
+    text-align: center;
+    font-size: 25px;
+}
+
+.emailButton {}
+
+.fadeContactUs {
+    opacity: 0;
 }

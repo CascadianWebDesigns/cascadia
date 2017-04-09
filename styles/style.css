@@ -33,7 +33,8 @@ body {
     background-color: rgba(255, 255, 255, 0.90);
     margin-top: 100vh;
     width: 95vw;
-    height: 500vh;
+    height: 90vh;
+    /* Change this to make card smaller, make sure text fits */
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
@@ -41,32 +42,97 @@ body {
     padding: 100px;
 }
 
-.content > p{
-  font-size: 25px;
+.content>p {
+    font-size: 25px;
 }
+
 .card-shawdow {
     -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
 }
 
-#header_logo{
-  weight: 5vh;
-  height: 5vh;
+#header_logo {
+    weight: 5vh;
+    height: 5vh;
 }
 
-table, tr, td{
-  border: 1px solid black;
+table, tr, td {
+    border: 1px solid black;
 }
 
-.title{
-  font-size: 8vw;
-  margin-top: 25vh;
-  text-align: center;
+.title {
+    font-size: 8vw;
+    margin-top: 25vh;
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+.testPara {
+    opacity: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul>li {
+    display: inline;
+    margin-right: 1vh;
+}
+
+ul {
+    display: inline-block;
+    float: right;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+hr{
+  margin-left: 50vh;
+  margin-right: 50vh;
+}
+
+a:visited:hover {
+    color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#about {
+    color: black;
+    text-decoration: none;
+}
+
+.tree {
+    display: block;
+    margin: auto;
+}
+.contact{
+  background-color: #233447;
+  margin-top: 10vh;
+  width: 95vw;
+  height: 50vh;
+  /* Change this to make card smaller, make sure text fits */
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+  padding: 100px;
   color: white;
-  opacity: 0.8;
 }
-
-.testPara{
-  opacity: 0;
+.contact-content{
+  text-align: center;
+  font-size: 25px;
+}
+.emailButton{
 }

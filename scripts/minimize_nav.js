@@ -16,6 +16,7 @@ $(function() {
 
 
         showWhenInPos(".testPara", 400);
+        showWhenInPos(".fadeContactUs", 830);
     });
 });
 

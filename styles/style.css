@@ -87,6 +87,10 @@ ul {
     float: right;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 a:hover {
     text-decoration: none;
 }
@@ -95,17 +99,14 @@ a:visited {
     text-decoration: none;
     color: white;
 }
-hr{
-  margin-left: 50vh;
-  margin-right: 50vh;
-}
 
-a:visited:hover {
+a:hover {
     color: grey;
 }
 
-a:link {
-    text-decoration: none;
+hr{
+  margin-left: 50vh;
+  margin-right: 50vh;
 }
 
 #about {
@@ -135,4 +136,8 @@ a:link {
   font-size: 25px;
 }
 .emailButton{
+}
+
+.fadeContactUs{
+  opacity: 0;
 }

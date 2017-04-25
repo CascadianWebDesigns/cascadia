@@ -18,15 +18,17 @@ body {
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
+    display: none;
 }
 
-.nav>ul{
-  margin-right: 25px;
+.nav>ul {
+    margin-right: 25px;
 }
 
-.nav>ul>li{
-  margin-right: 20px;
+.nav>ul>li {
+    margin-right: 20px;
 }
+
 .banner {
     background-image: url("../images/banner_placeholder.jpg");
     height: 100vh;
@@ -156,7 +158,6 @@ hr {
     font-size: 25px;
 }
 
-
 .fadeContactUs {
     opacity: 0;
 }
@@ -178,20 +179,19 @@ a.anchor {
     margin-right: 5px;
 }
 
-
-.btn{
-  color: white;
-  background: none;
+.btn {
+    color: white;
+    background: none;
 }
 
-.btn:hover{
-  color: white;
+.btn:hover {
+    color: white;
 }
 
-.btn:focus{
-  color: grey;
+.btn:focus {
+    color: grey;
 }
 
-.btn:active{
-  color: white;
+.btn:active {
+    color: white;
 }

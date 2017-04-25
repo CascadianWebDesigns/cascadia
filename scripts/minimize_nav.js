@@ -2,6 +2,7 @@ var nav_visible = false;
 var animation_speed = 250;
 var fancy_animation_speed = 500;
 var nav_opacity = 0.8;
+
 $(function() {
     $(document).scroll(function() {
         if ($(document).scrollTop() > 200) {
@@ -59,6 +60,8 @@ function showNav() {
         "font-size": "25px",
         opacity: nav_opacity
     }, animation_speed);
+
+    $(".nav").css("display", "block");
 }
 
 function hideNav() {
@@ -67,6 +70,8 @@ function hideNav() {
         "font-size": "28px",
         opacity: 0
     }, animation_speed);
+
+    $(".nav").css("display", "none");
 }
 
 function hideElement(element) {

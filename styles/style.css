@@ -161,6 +161,9 @@ hr {
 .fadeContactUs {
     opacity: 0;
 }
+.glyphicon-menu-hamburger{
+  float: right;
+}
 
 .pics {
     margin-top: 10vh;

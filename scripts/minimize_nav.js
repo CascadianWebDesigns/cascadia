@@ -1,26 +1,32 @@
 var nav_visible = false;
 var animation_speed = 250;
 var fancy_animation_speed = 500;
-var nav_opacity = 0.8;
+var nav_opacity = 1;
 
 $(function() {
+  checkScroll();
     $(document).scroll(function() {
-        if ($(document).scrollTop() > 200) {
-            if (!nav_visible) {
-                showNav();
-                hideElement(".title");
-            }
-        } else if (nav_visible) {
-            hideNav();
-            showElement(".title");
-        }
+        checkScroll();
 
 
-        showWhenInPos(".testPara", 400);
-        showWhenInPos(".fadeContactUs", 830);
+
     });
 });
 
+function checkScroll(){
+  if ($(document).scrollTop() > 200) {
+      if (!nav_visible) {
+          showNav();
+          hideElement(".title");
+      }
+  } else if (nav_visible) {
+      hideNav();
+      showElement(".title");
+  }
+
+  showWhenInPos(".testPara", 400);
+  showWhenInPos(".fadeContactUs", 830);
+}
 function showWhenInPos(element, pos) {
     if (scrollTopRelative(element) > pos) {
         $(element).animate({
@@ -61,6 +67,11 @@ function showNav() {
         opacity: nav_opacity
     }, animation_speed);
 
+    $(".banner").animate({
+        "opacity": '0'
+    }, animation_speed * 3);
+
+
     $(".nav").css("display", "block");
 }
 
@@ -69,6 +80,10 @@ function hideNav() {
     $(".nav").animate({
         "font-size": "28px",
         opacity: 0
+    }, animation_speed * 3);
+
+    $(".banner").animate({
+        "opacity": '1'
     }, animation_speed);
 
     $(".nav").css("display", "none");

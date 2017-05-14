@@ -187,7 +187,8 @@ a.anchor {
 }
 .emailbutton{
   margin-top: 2%;
-  text-align: center;
+margin: auto;
+display: block;
 }
 .btn:hover {
     color: white;

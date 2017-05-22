@@ -1,208 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Pavanam');
 body {
     font-family: 'Pavanam', sans-serif;
-    margin: 10px;
     background-image: url('../images/back.png');
-    background-color: white;
 }
 
-.nav {
-  background-image: url('../images/back.png');
-    background-color: white;
-    color: black;
-    font-size: 28px;
-    padding: 10px;
-    width: 100vw;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 2;
-    opacity: 0;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    display: none;
-    border-bottom: 1px solid black
-}
-
-.nav>ul {
-    margin-right: 25px;
-}
-
-.nav>ul>li {
-    margin-right: 20px;
-}
-
-.banner {
-    background-image: url("../images/banner_placeholder.jpg");
+.main_title {
+    font-size: 5vw;
+    text-align: center;
     height: 100vh;
-    width: 100vw;
-    left: 0;
-    top: 0;
-    background-size: cover;
-    background-position: center;
-    position: fixed;
-    z-index: -1;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-}
-
-.content {
-    background-image: url('../images/back.png');
-    margin-top: 100vh;
-    width: 95vw;
-    /* Change this to make card smaller, make sure text fits */
-    z-index: 1;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    border-radius: 2px;
-    padding: 8%;
-}
-
-.content>p {
-    font-size: 25px;
+    padding-top: 40vh;
 }
 
 .card-shawdow {
-    -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 16px 37px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 16px 37px -13px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 16px 37px -13px rgba(0, 0, 0, 0.75);
 }
 
-#header_logo {
-    weight: 5vh;
-    height: 5vh;
-}
-
-table, tr, td {
-    border: 1px solid black;
-}
-
-.title {
-    font-size: 8vw;
-    margin-top: 25vh;
-    text-align: center;
-    color: white;
-    opacity: 0.8;
-}
-
-.testPara {
-    opacity: 0;
+.break {
+    height: 150px;
 }
 
 h1 {
-    text-align: center;
+    font-size: 65px;
+    margin: 70px 0px;
 }
 
-h3 {
-    text-align: center;
+h2 {
+    font-size: 40px;
 }
 
-ul>li {
-    display: inline;
-    margin-right: 1vh;
+p {
+    font-size: 18px;
 }
 
-ul {
-    display: inline-block;
-    float: right;
+.section{
+  margin: 0px 0px 250px 0px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: black;
-    text-decoration: underline;
-}
-
-hr {
-    margin-left: 50vh;
-    margin-right: 50vh;
-}
-
-#about {
-    color: black;
-    text-decoration: none;
-}
-
-.tree {
-    display: block;
-    margin: auto;
-}
-
-.contact {
-    margin-top: 10vh;
-    height: 50vh;
-    width: 95vw;
-    /* Change this to make card smaller, make sure text fits */
-    z-index: 1;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 2px;
-    padding: 100px;
-    color: black;
-}
-
-hr{
-  border-color: black;
-}
-.contact-content {
-    font-size: 25px;
-}
-
-.fadeContactUs {
-    opacity: 0;
-}
-.glyphicon-menu-hamburger{
-  float: right;
-}
-
-.pics {
-    margin-top: 10vh;
-    height: 100%;
-    width: 100%;
-}
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -50px;
-    visibility: hidden;
-}
-
-.dropdown {
-    margin-right: 5px;
-}
-
-.btn {
-    color: white;
-    background: none;
-}
-.emailbutton{
-    display: block;
-}
-.btn:hover {
-    color: white;
-}
-
-.btn:focus {
-    color: grey;
-}
-
-.btn:active {
-    color: white;
+.section2{
+  margin: 0px 0px 200px 0px;
 }

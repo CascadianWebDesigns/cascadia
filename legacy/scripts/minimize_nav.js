@@ -7,6 +7,9 @@ $(function() {
   checkScroll();
     $(document).scroll(function() {
         checkScroll();
+
+
+
     });
 });
 
@@ -21,7 +24,37 @@ function checkScroll(){
       showElement(".title");
   }
 
+  showWhenInPos(".testPara", 400);
+  showWhenInPos(".fadeContactUs", 830);
 }
+function showWhenInPos(element, pos) {
+    if (scrollTopRelative(element) > pos) {
+        $(element).animate({
+            opacity: 1
+        }, fancy_animation_speed);
+    }
+}
+
+function hideWhenInPos(element, pos) {
+    if (scrollTopRelative(element) > pos) {
+        $(element).animate({
+            opacity: 0
+        }, fancy_animation_speed);
+    }
+}
+
+function hideWhenBetween(element, start, end) {
+    if (scrollTopRelative(element) > start && scrollTopRelative(element) < end) {
+        $(element).animate({
+            opacity: 0
+        }, fancy_animation_speed);
+    } else {
+        $(element).animate({
+            opacity: 1
+        }, fancy_animation_speed);
+    }
+}
+
 
 function scrollTopRelative(element) {
     return -1 * ($(element).scrollTop() - $(document).scrollTop());
@@ -34,7 +67,7 @@ function showNav() {
         opacity: nav_opacity
     }, animation_speed);
 
-    $(".main_title").animate({
+    $(".banner").animate({
         "opacity": '0'
     }, animation_speed * 3);
 
@@ -49,7 +82,7 @@ function hideNav() {
         opacity: 0
     }, animation_speed * 3);
 
-    $(".main_title").animate({
+    $(".banner").animate({
         "opacity": '1'
     }, animation_speed);
 

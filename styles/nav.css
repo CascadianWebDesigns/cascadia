@@ -14,7 +14,7 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     display: none;
-    border-bottom: 1px solid black
+    border-bottom: 1px solid black;
 }
 
 .nav>ul {

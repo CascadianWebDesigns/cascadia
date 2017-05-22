@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Pavanam');
+body,html{
+  margin: 0px;
+  padding: 0px;
+}
 body {
     font-family: 'Pavanam', sans-serif;
     background-image: url('../images/back.png');
@@ -24,20 +28,28 @@ body {
 h1 {
     font-size: 65px;
     margin: 70px 0px;
+    padding: 0px 10vw;
 }
 
 h2 {
     font-size: 40px;
+    padding: 0px 10vw;
 }
 
 p {
     font-size: 18px;
+    padding: 0px 10vw;
 }
 
-.section{
-  margin: 0px 0px 250px 0px;
+.section {
+    margin: 0px 0px 250px 0px;
 }
 
-.section2{
-  margin: 0px 0px 200px 0px;
+.section2 {
+    margin: 0px 0px 200px 0px;
+}
+
+#contactus{
+  border-top: 1px solid black;
+  padding: 50px 0px;
 }

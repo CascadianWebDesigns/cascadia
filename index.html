@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="scripts/minimize_nav.js"></script>
+    <link rel="icon" type="image/png" href="images/logo_bw.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <title>
+        Cascadian Web Designs
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav row">
+            <span class="hidden-xs">Cascadian Web Designs</span>
+            <ul>
+                <li class="hidden-xs">
+                    <a href="#about">About us</a>
+                </li>
+                <li class="hidden-xs">
+                    <a href="#work">Our work</a>
+                </li>
+                <li class="hidden-xs">
+                    <a href="#contactus">Contact us</a>
+                </li class="hidden-xs">
+                <li class="visible-xs">
+                    <span class="dropdown">
+                      <button class="btn dropdown-toggle" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#about">About us</a></li>
+                        <li><a href="#work">Our work</a></li>
+                        <li><a href="#contactus">Contact us</a></li>
+                    </ul>
+                    </span>
+                </li>
+            </ul>
+
+            <img src="images/logo_bw.png" alt="logo" class="img-responsive visible-xs" id="header_logo" />
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="main_title">Cascadian Web Designs</div>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div id="about" class="section">
+            <div class="row">
+                <h1 class="text-center">About Us</h1>
+            </div>
+            <div class="row">
+                <p class="text-center">
+                    Located in the heart of Vancouver BC, we are here to make your dream website a reality. Whether you are a small business, or a local family owned restaurant, we will help give you an online presence. Our websites are responsive, mobile-friendly, and modern.
+                    With a modern site you will be able to reach a bigger audience, and let your business grow to its full potential.
+                </p>
+            </div>
+        </div>
+
+        <!-- Our Work -->
+        <div id="work" class="section">
+            <div class="row">
+                <h1 class="text-center">Our Work</h1>
+            </div>
+
+            <!-- PHOTOS -->
+            <div class="row section2">
+                <div class="col-md-6"><img class="card-shawdow img-responsive" src="./images/our_work/photosBanner.jpg" alt="photos banner"></div>
+                <div class="col-md-6">
+                    <h2>Photos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae urna vulputate neque sodales blandit et scelerisque urna. Cras in laoreet urna. Maecenas lectus odio, tristique a laoreet eget, fermentum id ligula. Integer id orci
+                        sed erat cursus egestas laoreet in enim. Nunc hendrerit scelerisque ipsum sit amet fringilla. Nulla convallis viverra tellus, in pulvinar nunc tempor eu. Donec mattis tortor eros, nec iaculis nulla euismod nec. Quisque porttitor
+                        rhoncus volutpat.
+                    </p>
+                </div>
+            </div>
+
+            <!-- VROOM -->
+            <div class="row section2">
+              <div class="col-md-6 hidden-md hidden-lg"><img class="card-shawdow img-responsive" src="./images/our_work/vroomBanner.jpg" alt="vroom banner"></div>
+                <div class="col-md-6 text-right">
+                    <h2>VROOOM!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae urna vulputate neque sodales blandit et scelerisque urna. Cras in laoreet urna. Maecenas lectus odio, tristique a laoreet eget, fermentum id ligula. Integer id orci
+                        sed erat cursus egestas laoreet in enim. Nunc hendrerit scelerisque ipsum sit amet fringilla. Nulla convallis viverra tellus, in pulvinar nunc tempor eu. Donec mattis tortor eros, nec iaculis nulla euismod nec. Quisque porttitor
+                        rhoncus volutpat.
+                    </p>
+                </div>
+                <div class="col-md-6 hidden-xs hidden-sm"><img class="card-shawdow img-responsive" src="./images/our_work/vroomBanner.jpg" alt="vroom banner"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
